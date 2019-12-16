@@ -22,7 +22,7 @@ export class ListComponent implements OnInit {
   // Redirige vers l'url du contact sélectionné de la liste 
   selectContact(contact: Contact): void {
     console.log('Vous avez selectionné ' + contact.name + ' ' + contact.surname);
-    let link = ['/contact', contact.id];
+    let link = ['/contact/', contact.id];
     this.router.navigate(link);
   }
 
