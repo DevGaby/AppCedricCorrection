@@ -65,7 +65,7 @@ export class ContactFormComponent implements OnInit {
   }*/
 
   // La méthode appelée lorsque le formulaire est soumis.
-  onSubmit(form: NgForm): void {
+  onSubmit(form: NgForm) {
     console.log("Submit form !");
     let link = ['/contact', this.contact.id];
     this.router.navigate(link);
