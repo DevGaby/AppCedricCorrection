@@ -1,5 +1,4 @@
-import { Contact } from './model/contact';
-import { pairs } from 'rxjs';
+import { Contact } from './contacts';
 
 // Contacts test de base à partir du constructeur
 
